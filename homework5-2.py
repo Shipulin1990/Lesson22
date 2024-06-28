@@ -12,7 +12,7 @@ class House:
 
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
-print(str(f'Название: {self.name(h1)}, кол-во этажей: {self.number_of_floors(h1)}'))
-print(str(f'Название: {self.name(h2)}, кол-во этажей: {self.number_of_floors(h2)}'))
+print(str(f'Название: {h1.name}, кол-во этажей: {h1.number_of_floors}'))
+print(str(f'Название: {h2.name}, кол-во этажей: {h2.number_of_floors}'))
 print(len(h1))
 print(len(h2))
